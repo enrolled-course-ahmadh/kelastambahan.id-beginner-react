@@ -15,12 +15,12 @@ function Kalkulator() {
 					setDisplay('');
 					break;
 				case '<':
-					let _display = display;
-					setDisplay(_display.slice(0, -1));
+					setDisplay(display.slice(0, -1));
 					break;
 				case '=':
 					/* javascript able to translate math in string to get result using eval() */
-					setDisplay(eval(display));
+					// eslint-disable-next-line
+					setDisplay(String(eval(display)));
 					break;
 				case '.':
 					if (!display.includes('.')) {
