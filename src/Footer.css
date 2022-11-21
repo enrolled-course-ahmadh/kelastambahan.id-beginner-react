@@ -1,0 +1,9 @@
+.footer {
+    /* because of previous tag using float (left), 
+    we use `clear` to make footer out of that rule */
+    clear: both;
+    text-align: center;
+    background-color: var(--content);
+    margin: 20px 0;
+    padding: 20px 0;
+}

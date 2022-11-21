@@ -1,0 +1,64 @@
+.daftar-content {
+    width: 670px;
+    float: left;
+}
+
+.daftar-content .content {
+    background-color: var(--content);
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.daftar-content .content img {
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.daftar-content .content .info {
+    margin-left: 170px;
+}
+
+.daftar-content .content .info strong {
+    color: black;
+    background-color: var(--grey);
+    padding: 3px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.daftar-content .content .info a {
+    text-align: right;
+    color: var(--link);
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.sidebar {
+    width: 470px;
+    float: right;
+}
+
+.sidebar h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.sidebar p {
+    line-height: 20px;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: var(--link);
+}
